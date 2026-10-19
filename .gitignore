@@ -1,0 +1,10 @@
+# built by ./build-site.sh
+site/
+# local tools and caches
+.vite/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+# temporary test pages
+zz-*
