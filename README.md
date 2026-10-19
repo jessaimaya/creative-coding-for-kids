@@ -3,6 +3,8 @@
 A text-code course where every idea shows up on screen within seconds.
 Kids don't drag blocks; they type real code, change a number, press Run, and *see* what happened.
 
+**Try the presenter:** <https://jessaimaya.github.io/creative-coding-for-kids/>
+
 <!-- screenshots -->
 ![The Creative Coding Club presenter on a laptop and a phone](docs/screenshots/hero.png)
 <!-- /screenshots -->
@@ -72,7 +74,7 @@ tools/update-processing-reference.sh   # refresh the local Processing reference 
 python3 tools/screenshots.py           # retake the README screenshots (needs Chrome and Pillow)
 ```
 
-To serve the site instead of opening the file, run any static server from this folder, for example `npx vite serve ./`, and open `/site/`.
+The live copy at <https://jessaimaya.github.io/creative-coding-for-kids/> is rebuilt by GitHub Actions on every push to `main` (`.github/workflows/pages.yml`). To serve your own copy instead of opening the file, run any static server from this folder, for example `npx vite serve ./`, and open `/site/`.
 
 ## How to use this folder
 
